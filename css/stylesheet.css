@@ -17,6 +17,27 @@ ul {
 	list-style-type: none;
 }
 
+.highlited {
+	background-color: aquamarine;
+}
+
+#sale {
+	background-color: aquamarine;
+	width: 150px;
+	margin-top: 30px;
+	margin-left: 65px;
+	padding: 8px 0px;
+	border: 1 px solid black;
+	font-size: 15px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#sale:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	background-color: lightblue;
+}
+
 .hotel {
 	background-color: whitesmoke;
 	display: inline-block;
@@ -32,7 +53,7 @@ ul {
 	position: absolute;
 	width: 25%;
 	background-color: aliceblue;
-	border: solid black;
+	border: 1px solid black;
 	text-align: justify;
 	padding: 5px;
 	margin: 0;
@@ -42,8 +63,7 @@ ul {
 .hotel img {
 	width: 350px;
 	height: 250px;
-	border-style: solid;
-	border-color: black;
+	border: solid black;
 	margin-left: 80px;
 }
 
@@ -53,10 +73,15 @@ button {
 	margin-top: 30px;
 	margin-left: 100px;
 	padding: 8px 0px;
-	border: solid black;
+	border: 1px solid black;
 	font-size: 15px;
 	text-decoration: none;
 	cursor: pointer;
+}
+
+button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	background-color: lightblue;
 }
 
 .hotel> p {
@@ -76,7 +101,7 @@ a {
 	margin-top: 30px;
 	margin-left: 10px;
 	padding: 5px 0px;
-	border: solid black;
+	border: 1px solid black;
 	text-align: center;
 	cursor: pointer;
 }
