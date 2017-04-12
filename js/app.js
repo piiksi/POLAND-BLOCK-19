@@ -11,3 +11,7 @@ $('.hotel').on('keyup', '.quantity', function (event) {
 	var price = +$(this).closest('.hotel').data('price');
 	$(this).closest('.hotel').find('.total').text(quantity * price);
 });
+
+$('#sale').click(function () {
+	$('.promo').toggleClass('highlited');
+});
