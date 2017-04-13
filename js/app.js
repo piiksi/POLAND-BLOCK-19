@@ -11,6 +11,11 @@ $('.hotel').on('keyup', '.quantity', function (event) {
 	var price = +$(this).closest('.hotel').data('price');
 	$(this).closest('.hotel').find('.total').text(quantity * price);
 });
+$(".quantity").keyup(function(event){
+        if (isNaN(String.fromCharCode(event.which))){ 
+        return false;
+}});
+
 
 $('#sale').click(function () {
 	$('.promo').toggleClass('highlited');
